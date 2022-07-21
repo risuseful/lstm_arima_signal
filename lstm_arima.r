@@ -21,8 +21,10 @@ plot(s1, ylim=c(min(min(s1),
      )
 lines(s2, col="red")
 
-
-
+# -----------------
+# Note:
+# From this point onward, we'll disregard s2
+# -----------------
 
 # transform data to stationarity (I'm just using s1)
 diffed <- diff(s1, differences=1)
